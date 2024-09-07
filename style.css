@@ -95,7 +95,8 @@ img{
         width: 20px;
     }
     .choice{
-        padding:15px;
+        padding:10px;
+        outline: 2px solid white;
     }
     .choices{
         gap:10px;
