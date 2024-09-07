@@ -89,15 +89,18 @@ img{
 
 @media(max-width: 600px) {
     .heading{
-        font-size: 30px;
+        font-size: 20px;
     }
     img{
-        width: 50px;
+        width: 30px;
     }
     .choice{
-        padding:20px;
+        padding:15px;
     }
     .choices{
         gap:10px;
+    }
+    .result{
+        font-size:16px;
     }
 }
