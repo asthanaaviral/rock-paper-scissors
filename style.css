@@ -86,3 +86,18 @@ img{
     background-color: #1e5fbb;
     cursor: pointer;
 }
+
+@media(max-width: 600px) {
+    .heading{
+        font-size: 40px;
+    }
+    img{
+        width: 60px;
+    }
+    .choice{
+        padding:30px;
+    }
+    .choices{
+        gap:20px;
+    }
+}
