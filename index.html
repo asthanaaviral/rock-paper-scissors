@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Rock Paper Scissors</h1>
+        <div class="choices">
+            <button class="choice" id="rock"><img src="images/rock.png"></button>
+            <button class="choice" id="paper"><img src="images/paper.png"></button>
+            <button class="choice" id="scissors"><img src="images/scissors.png"></button>
+        </div>
+        <p class="result">You Win!</p>
+        <div class="message">
+            <p class="display-choice" id="userDisplay">You:</p>
+            <p class="display-choice" id="compDisplay">Computer: </p>
+        </div>
+        <div class="score" id="score">
+            <p>Wins: 0</p>
+            <p>Losses: 0</p>
+            <p>Draws: 0</p>
+        </div>
+        <button class="reset-button" id="reset-button">Reset Score</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
