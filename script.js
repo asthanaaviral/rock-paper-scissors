@@ -91,8 +91,9 @@ function resetScore() {
     scoreboard.loses = 0;
     scoreboard.draws = 0;
     updateScore();
-    displayUser.innerHTML = `You: </img>`
-    displayComp.innerHTML = `Computer: </img>`
+    displayUser.innerHTML = `You: </img>`;
+    displayComp.innerHTML = `Computer: </img>`;
+    result.innerText = "";
 }
 
 resetButton.addEventListener('click', resetScore);
