@@ -15,7 +15,6 @@ let userChoice;
 choice.forEach((element) => {
     element.addEventListener('click', () =>{
         userChoice = element.getAttribute("id");
-        console.log("user choice: ", userChoice);
         generateComputerChoice();
     })
 })
@@ -31,7 +30,6 @@ function generateComputerChoice(){
     } else{
         compChoice = "scissors";
     }
-    console.log("computer choice: ",compChoice);
     calculateResult(userChoice, compChoice);
 }
 
